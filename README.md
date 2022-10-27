@@ -13,7 +13,7 @@ Using VS Code, write a C# solution to take in an input of a paragraph and:
 
 Write up a short documentation explaining what your program does:
 
-1) CalculateNumberOfPalindromeWords iterates through a readable list of words from the given sample paragraph, stepping through each word, we CheckIfWordIsPalindrome(). The CheckIfWordIsPalindrome will iterate through O(N/2) characters in each word where N is the length of the word. By iterating through the characters of each word we set two pointers on the beginning and the end of the string. If the chars are ever not the same, we can conclude that the word is not a palindrome. By returning true, we can increment to the total numberOfPalindromeWords.
+1) CalculateNumberOfPalindromeWords iterates through a readable list of words from the given sample paragraph, stepping through each word, we CheckIfWordIsPalindrome(). The CheckIfWordIsPalindrome will function iterate through O(N/2) characters in each word where N is the length of the word. By iterating through the characters of each word we set two pointers on the beginning and the end of the string. If the chars are ever not the same, we can conclude that the word is not a palindrome. By returning true, we can increment to the total numberOfPalindromeWords.
 
 2) CalculateNumberOfPalindromeSentences 
 
