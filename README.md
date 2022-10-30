@@ -4,12 +4,11 @@ Hello all those viewing. This is my solution to the Coding Assessment provided. 
 
 2) CalculateNumberOfPalindromeSentences will iterate through each list of sentences from the paragraph and then will iterate through each list of words in the current sentence. On that current sentence, we will see if the sentence is a palindrome by checking the words using a leading and ending pointer. If the current sentence contains a palindrome, incrememnt the numberOfPalindromeSentences variable and then return that number.
 
-3) GetListAndCountOfUniqueWords
+3) GetListAndCountOfUniqueWords will iterate through the list of words from the paragraph and add each unique word to the dictionary. If the word already exists in the dictionary, then add to the count of that given word.
 
-4) GetAllWordsFromParagraphContainingInputLetter
-    - With M being the number of words in the paragraph (from GetListOfWordsFromString)
-    - With P being the number of characters in the paragraph string (from string.Split())
-    - O(M) time complexity 
-    - O(P) space complexity 
+4) GetAllWordsFromParagraphContainingInputLetter will receive a user input to get a letter. It will then iterate through the list of words from the paragraph and add each word that contains that user-input letter. 
 
 The CheckIfWordIsPalindrome(), GetInputLetter(), GetInputParagraph(), GetListOfWordsFromString(), and GetListOfSentencesFromString() are all helper functions used for reuseability, intent, and abstraction.
+
+Thanks for reading through my implementation. Cheers!
+- Christopher Dang
